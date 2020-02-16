@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Test" verbose="2"  >
+    <classes>
+      <class name="Week4.TestNGExamples"/>
+      <class name="Week4.Priority_DependsonMethod"/>      
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="3" name="Test" verbose="2" parallel="methods" >
+    <classes>
+      <class name="Week4.TestNGExamples"/>          
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
