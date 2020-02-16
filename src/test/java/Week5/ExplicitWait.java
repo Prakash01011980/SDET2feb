@@ -13,6 +13,7 @@ public class ExplicitWait {
 	static WebDriver driver;
 	WebDriverWait wait;
 	;
+	;
 	
 	@Test
 	public void Login()
