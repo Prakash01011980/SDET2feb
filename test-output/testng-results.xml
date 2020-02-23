@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21513" started-at="2020-02-16T08:28:01Z" finished-at="2020-02-16T08:28:23Z">
+  <suite name="Default suite" duration-ms="24551" started-at="2020-02-22T13:17:42Z" finished-at="2020-02-22T13:18:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21513" started-at="2020-02-16T08:28:01Z" finished-at="2020-02-16T08:28:23Z">
-      <class name="Week5.ExplicitWait">
-        <test-method status="PASS" signature="Dashboard()[pri:0, instance:Week5.ExplicitWait@6a41eaa2]" name="Dashboard" duration-ms="21" started-at="2020-02-16T13:58:01Z" finished-at="2020-02-16T13:58:01Z">
+    <test name="Default test" duration-ms="24551" started-at="2020-02-22T13:17:42Z" finished-at="2020-02-22T13:18:06Z">
+      <class name="Week6.FirstFlow">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Week6.FirstFlow@3c0ecd4b]" name="beforeTest" is-config="true" duration-ms="82" started-at="2020-02-22T18:47:42Z" finished-at="2020-02-22T18:47:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Dashboard -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:Week5.ExplicitWait@6a41eaa2]" name="Login" duration-ms="21439" started-at="2020-02-16T13:58:01Z" finished-at="2020-02-16T13:58:23Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="LoginPageValidation()[pri:0, instance:Week6.FirstFlow@3c0ecd4b]" name="LoginPageValidation" duration-ms="24255" started-at="2020-02-22T18:47:42Z" finished-at="2020-02-22T18:48:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-      </class> <!-- Week5.ExplicitWait -->
+        </test-method> <!-- LoginPageValidation -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Week6.FirstFlow@3c0ecd4b]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-02-22T18:48:06Z" finished-at="2020-02-22T18:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Week6.FirstFlow -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
